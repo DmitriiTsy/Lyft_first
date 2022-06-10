@@ -1,0 +1,769 @@
+
+html,
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    height: 220px;
+    border-bottom: 0.5px solid grey;
+    justify-content: center;
+    align-items: center;
+    gap: 40px
+}
+
+.header__glass{
+    position: relative;
+    bottom: 100px;
+    left: 40px;
+}
+
+.header__glass-source{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+}
+
+.header__small-container{
+    display:flex;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__image {
+    height: 210px;
+    width: 210px;
+    display: flex;
+}
+
+.header__burger {
+    height: 60px;
+    width: 60px;
+    display: flex;
+}
+
+.header__textarea {
+    width: 530px;
+    height: 110px;
+    border-radius: 35px;
+    border: 1px solid black;
+    font-size: 45px;
+    padding: 40px 10px 0px 10px;
+    text-align: right;
+    position: relative;
+}
+
+/*let's ride section  */
+
+.let-ride {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+    padding: 100px 0px 100px 0px;
+}
+
+.let-ride h1 {
+    font-size: 100px;
+    font-weight: 550;
+}
+
+.let-ride span {
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.let-ride__buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.let-ride__apply-button {
+    line-height: 2.5;
+    padding: 0px 70px 0px 70px;
+    font-size: 40px;
+    width: 280px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 200px;
+    background-color: #523be4;
+    font-weight: 600;
+}
+
+.let-ride__sign-button {
+    line-height: 2.5;
+    padding: 0px 70px 0px 70px;
+    font-size: 40px;
+    width: 280px;
+    text-align: center;
+    color: #000;
+    border-radius: 200px;
+    background-color: #FFFFFF;
+    border: 3px solid grey;
+    position: relative;
+    font-weight: 600;
+}
+
+.let-ride__image{
+    width: 900px;
+    height: 500px;
+}
+
+/* Drive - with section */ 
+
+.drive-with {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #F4F4F9;
+    padding: 200px 0px 0px 0px;
+}
+
+.drive-with span {
+    font-size: 40px;
+    font-weight: 600;
+    width: 100%;
+} 
+
+.drive-with p{
+    font-size: 70px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.drive-with__list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+    justify-content: left;
+}
+
+.drive-with__small-container {
+    padding-left: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.drive-with__text-section{
+    display:flex;
+    flex-direction: column;
+}
+
+.drive-with__text-section p {
+    font-size:40px;
+    font-weight: 300;
+}
+
+.drive-with__text-section strong {
+    font-size:40px;
+    font-weight: 600;
+}
+
+.drive-with__icon {
+    width: 50px;
+    height: 50px
+}
+
+.drive-with__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.drive-with__how-driver-pay-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drive-with__how-driver-pay-container span{
+    width: 450px;
+}
+
+.drive-with__woman {
+    width: 950px;
+    height: 1000px;
+    padding-left: 15px;
+}
+
+.drive-with__feedback {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.drive-with__feedback p {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.drive-with__feedback span {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.second__button-feedback-text{
+    font-size: 40px;
+}
+
+.drive-with__driver{
+    width: 250px;
+    height: 250px;
+}
+
+.drive-with__slider {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    gap: 60px;
+}
+
+.drive-with__points {
+    display:flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.drive-with__arrow {
+    width: 70px;
+    height: 70px;
+}
+
+/* Ride with Lyft */
+
+.ride {
+    display:flex;
+    flex-direction: column;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+    background-color: #FFFFFF;
+}
+
+.ride__header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.ride__list{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.ride__point{
+    display:flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.ride span {
+    font-size: 40px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.ride h2 {
+    font-size: 70px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.ride p {
+    font-size: 30px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.ride__list strong {
+    font-size: 35px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.ride__icon{
+    width: 50px;
+    height: 50px;
+}
+
+.ride__screenshot{
+    height: 1100px;
+    width: 800px
+}
+
+.ride__getride {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.ride__buttons {
+    line-height: 2.5;
+    padding: 0px 70px 0px 70px;
+    font-size: 2.5em;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 200px;
+    width: 200px;
+    height: 120px;
+    background-color: #523be4;
+    font-weight: 600;
+}
+
+.ride__pink{
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    width: 90%
+}
+
+.ride__pink-image{
+    display: flex;
+    width: 300px;
+    height: 100px;
+}
+
+.ride__pink-link{
+    color:#000
+}
+
+/*choose ride */
+
+.ride__Ride-Bike-Scoot{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+    padding: 100px 0px 100px 0px;
+}
+
+.ride__slider-container{
+    display:flex;
+    flex-direction: row;
+    gap: 140px
+}
+
+.ride__slider-arrows{
+    width: 100px;
+    height: 100px;
+}
+
+.ride__cards p{
+    font-size: 30px;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    color: grey;
+    width: 80%
+}
+
+.ride__cards {
+    text-align: center;
+    color: grey;
+    width: 90%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estimation pink section */
+
+.estimation{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    background-color:#DCDCFF;
+    gap: 100px;
+    padding: 0px 0px 50px 0px;
+    width: 100%;
+}
+
+.estimation p {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.estimation_textarea{
+    width: 900px;
+    height: 110px;
+    border-radius: 35px;
+    border: 1px solid black;
+    font-size: 45px;
+    padding: 40px 10px 0px 0px;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.estimation__textareas{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.estimation__button {
+    line-height: 2.5;
+    padding: 0px 70px 0px 70px;
+    font-size: 3em;
+    text-align: center;
+    color: #000000;
+    border-radius: 150px;
+    background-color: #FFFFFF;
+    position: relative;
+    font-weight: 600;
+    box-shadow: 3px 3px 2px 2px rgba(0,0,0,.8);
+}
+
+.estimation__buttons{
+    width: 450px;
+}
+
+.estimation__point{
+    width: 40px;
+    height: 40px;
+}
+
+.estimation__points{
+    position: relative;
+    bottom: 130px;
+    right: 380px;
+}
+
+.estimation__pointss{
+    display:flex;
+    position: relative;
+    bottom: 105px;
+    left: 30px;
+}
+
+.estimation__container{
+    padding: 50px 
+}
+
+/* Safety section */
+
+.safety {
+    background: #f4f4fa;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 100px 40px 200px 40px;
+    gap: 30px;
+}
+
+.safety span{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.safety h2{
+    font-size: 70px;
+    font-weight: 600; 
+}
+
+.safety p{
+    font-size: 35px;
+    font-weight: 300; 
+}
+
+.safety__button{
+    width: 540px;
+    line-height: 2.5;
+    padding: 0px 70px 0px 70px;
+    font-size: 2.5em;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 200px;
+    width: 400px;
+    height: 120px;
+    background-color: #523be4;
+    font-weight: 600;
+}
+
+.safety__image-source{
+    width: 900px;
+    height: 500px;
+}
+
+.safety__smallheader{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.safety__smallheader span{
+    width: 450px;
+}
+
+.safety__arrow{
+    width: 50px;
+    height: 50px;
+}
+
+/* accessibility */
+
+.accesibility {
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    text-align: left;
+    background-color: #FFFFFF;
+    padding: 300px 0px 300px 0px;
+    width: 100%;
+}
+
+.accessibility__container{
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+.accesibility h2 {
+    font-size: 60px;
+    font-weight: 600; 
+}
+
+.accesibility p {
+    font-size: 20px;
+    font-weight: 300; 
+}
+
+.accesibility__image-source{
+    height: 300px;
+}
+
+.accesibility__smallheader{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    text-align: left
+    justify-content: center;
+}
+
+.accesibility__smallheader span{
+    width: 600px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.accessibility__arrow{
+    width: 50px;
+    height: 50px;
+}
+
+/* business section */
+
+.business{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 200px 0px 200px 0px;
+    width: 100%;
+}
+
+.business__image-source{
+    width: 120px;
+    height: 80px;
+}
+
+.business__headers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.business__headers span{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.business span{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.business p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.business__headertext{
+    font-size: 50px;
+    font-weight: 600;   
+    
+}
+
+.business__headerh{
+    font-size: 70px;
+    font-weight: 600;  
+}
+
+.business__text{
+    font-size: 40px;
+}
+
+.business__button-source{
+    line-height: 2.5;
+    padding: 0px 70px 0px 70px;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    border-radius: 150px;
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 3px 3px 2px 2px rgba(0,0,0,.8);
+    width: 500px
+}
+
+.business__partnerimage{
+    padding-top: 500px;
+}
+
+.business__partnerimage-source{
+    width: 300px;
+    height: 100px;
+}
+
+.second__button-feedback-imright{
+    padding-top: 300px;
+}
+
+.business__arrow{
+    padding-top: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+/* Driver type choose */
+
+.type{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-top: 100px;
+}
+
+.type__block{
+    display:flex;
+    flex-direction: row;
+    height: 150px;
+    border-bottom: 1px solid black;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type__block h2{
+    font-size: 40px;
+}
+
+.type__arrow{
+    width: 50px;
+    height: 50px;
+}
+
+.type__text{
+    font-size: 60px;
+    font-weight: 600; 
+}
+
+.type__buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.type__button{
+    line-height: 2.5;
+    padding: 0px 70px 0px 70px;
+    border: 1px solid black;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    border-radius: 150px;
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 3px 3px 2px 2px rgba(0,0,0,.8);
+}
+
+.type__social{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+.type__social-wrapper{
+    padding: 10px;
+}
+
+.type__social-media{
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer{
+    display:flex;
+    justify-content: right;
+    font-size: 30px;
+    background-color: #FFFFFF;
+}
+
+.footer__right{
+    display:flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.type__social-icon{
+    width: 50px;
+    height: 50px;
+}
