@@ -391,7 +391,7 @@ body {
 }
 
 .ride__pink {
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 50px;
     align-items: center;
@@ -614,7 +614,7 @@ body {
 
 /* accessibility */
 
-.accessibility__container{
+.accessibility__container {
     background-color: #FFFFFF;
     padding: 300px 0px 300px 0px;
     width: 100%;
@@ -844,7 +844,7 @@ body {
 }
 
 .footer__right {
-    display:flex;
+    display: flex;
     gap: 15px;
     flex-direction: column;
 }
