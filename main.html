@@ -26,7 +26,7 @@
             </div>
     </div>
     <div class="let-ride">
-        <h1>Let's ride</h1>
+        <h1 class="let-ride__header">Let's ride</h1>
         <div class="let-ride__buttons">
             <div class="let-ride__apply-button"> Apply to drive
             </div>
@@ -37,8 +37,8 @@
     </div>
 
     <div class="drive-with">
-        <span> DRIVE WITH LYFT </span>
-        <p> Set your own hours. Earn <br> on your own terms. </p>
+        <span class="drive-with-lyft__header"> DRIVE WITH LYFT </span>
+        <p class="drive-with-set__header"> Set your own hours. Earn <br> on your own terms. </p>
         <div class="drive-with__list">
             <div class="drive-with__small-container">
                     <div class="drive-with__image">
@@ -48,8 +48,8 @@
                           </svg>
                     </div>
                     <div class="drive-with__text-section">
-                        <strong> Reliable earnings: </strong>
-                        <p>  Make money, keep your tips, and cash out <br> when you want. </p>
+                        <strong class="drive-with__bold"> Reliable earnings: </strong>
+                        <p class="drive-with__text">  Make money, keep your tips, and cash out <br> when you want. </p>
                     </div>
             </div>
             <div class="drive-with__small-container">
@@ -60,8 +60,8 @@
                           </svg>
                     </div>
                     <div class="drive-with__text-section">
-                        <strong> A flexible schedule: </strong>
-                        <p> Be your own boss and drive whenever it <br> works for you. </p>
+                        <strong class="drive-with__bold"> A flexible schedule: </strong>
+                        <p class="drive-with__text"> Be your own boss and drive whenever it <br> works for you. </p>
                     </div>
             </div>
             <div class="drive-with__small-container">
@@ -71,8 +71,8 @@
                           </svg>
                     </div>
                     <div class="drive-with__text-section">
-                        <strong>  Get paid instantly: </strong>
-                        <p> Cash out your earnings whenever you <br> want. </p>
+                        <strong class="drive-with__bold">  Get paid instantly: </strong>
+                        <p class="drive-with__text"> Cash out your earnings whenever you <br> want. </p>
                     </div>
 
             </div>
@@ -81,17 +81,19 @@
             <div class="let-ride__apply-button"> Apply to drive
             </div>
                 <div class="drive-with__how-driver-pay-container">
-                    <span>How driver pay works</span>
+                    <span class="drive-with__bold">How driver pay works</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="drive-with__icon" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                     </svg>
                 </div>
-            <image src ="woman.webp" class="drive-with__woman"></image>
+            <div class="drive-with__pic">
+                <image src ="woman.webp" class="drive-with__woman"></image>
+            </div>
         </div>
         <div class="drive-with__feedback">
             <image class = "drive-with__driver"src ="timothy_driver.webp">
             </image>
-            <p>
+            <p class="drive-with-feedback__text">
                 “Driving with Lyft is the perfect way <br> 
                 to make money and be there for my <br>
                 family’s needs. I love providing a <br>
@@ -104,7 +106,7 @@
                 <br>
                 — Timothy
             </p>
-            <span>
+            <span class="drive-with-feedback__italic">
             Driving with Lyft since 2017
             </span>
         </div>
@@ -132,10 +134,10 @@
         </div>
     </div>
         <div class="ride">
-            <div class="ride__header">
-                    <span> RIDE WITH LYFT </span>
-                    <h2> Ready, set , go <br> in just a few quick taps </h2>
-                    <p> No matter your deestination, we'll get you <br> where you need to go </p>
+            <div class="ride__head">
+                    <span class="ride-with-lyft__header"> RIDE WITH LYFT </span>
+                    <h2 class="ride__header"> Ready, set , go <br> in just a few quick taps </h2>
+                    <p class="ride__text"> No matter your deestination, we'll get you <br> where you need to go </p>
             </div>
             <div class="ride__list">
                 <div class="ride__point">
@@ -143,20 +145,20 @@
                         <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
                         <path fill-rule="evenodd" d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
                     </svg>
-                    <strong> Get a reliable ride in minutes </strong>
+                    <strong class="ride__bold"> Get a reliable ride in minutes </strong>
                 </div>
                 <div class="ride__point">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="ride__icon" viewBox="0 0 16 16">
                         <path d="M6.225 1.227A7.5 7.5 0 0 1 10.5 8a7.5 7.5 0 0 1-4.275 6.773 7 7 0 1 0 0-13.546zM4.187.966a8 8 0 1 1 7.627 14.069A8 8 0 0 1 4.186.964z"/>
                     </svg>
-                    <strong> Know that your driver is wearing a mask </strong>
+                    <strong class="ride__bold"> Know that your driver is wearing a mask </strong>
                 </div>
                 <div class="ride__point">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="ride__icon" viewBox="0 0 16 16">
                         <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z"/>
                         <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
                     </svg>
-                    <strong> Schedule your ride in advance </strong>
+                    <strong class="ride__bold"> Schedule your ride in advance </strong>
                 </div>
             </div>
             <div class="ride__getride">
@@ -166,15 +168,15 @@
                 </div>
             <div class="ride__pink">
                     <image src ="pink.webp" class="ride__pink-image"></image>
-                    <p><a href="google.com " class="ride__pink-link">Join Lyft Pink</a> to unlock faster 
+                    <p class="ride-pink__text"><a href="google.com " class="ride__pink-link">Join Lyft Pink</a> to unlock faster 
                         pickups at no extra <br> cost, member-exclusive 
                         pricing, and free roadside <br> assistance for your own car—right in the app.
                         All for <br> $9.99/month. Available in the U.S. only.
                     </p>
             </div>
             <div class="ride__Ride-Bike-Scoot">
-                <h2>Ride. Bike. Scoot. Go <br> bananas.</h2> 
-                <p>
+                <h2 class="ride-bike__header">Ride. Bike. Scoot. Go <br> bananas.</h2> 
+                <p class="ride-bike__text">
                     We’ve got options to get you where you’re<br>
                     going. Choose a ride* that suits your mood and<br>
                     budget.
@@ -189,7 +191,7 @@
                 </div>
             </div>
             <div class="ride__cards">
-                <p>
+                <p class="ride-cards__text">
                 *Availability of bikes, scooters, rentals, ride types, and transit <br>
                 information varies by region.
                 </p>
@@ -197,7 +199,7 @@
         </div>
         <div class="estimation">
             <div class="estimation__container">
-                <p> Ready to roll? <br> Get an estimate </p>
+                <p class="estimation__header"> Ready to roll? <br> Get an estimate </p>
                     <div class="estimation__textareas">
                         <textarea rows="3" cols="1" placeholder="Enter pick-up location*" class="estimation_textarea"></textarea>
                         <div class="estimation__points">
@@ -220,17 +222,17 @@
             </div>
         </div>
         <div class="safety">
-            <span> SAFETY FIRST </span>
-            <h2> Your safety comes first. <br> Always. </h2>
-            <p> We look out for you before, during, and after <br>
-                every single ride. And we monitor rides to <br>
-                help you get where you need to go. If you <br>
-                ever need it, we're standing by, ready to help. <br>
+            <span class="safety-first__header"> SAFETY FIRST </span>
+            <h2 class="safety__header"> Your safety comes first. <br> Always. </h2>
+            <p class="safety__text"> We look out for you before, during, and after 
+                every single ride. And we monitor rides to 
+                help you get where you need to go. If you 
+                ever need it, we're standing by, ready to help.
             </p>
             <div class="safety__button"> Learn about safety
             </div>
             <div class="safety__smallheader">
-                <span>Community guidelines</span>
+                <span class="safety__bold">Community guidelines</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="safety__arrow" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                 </svg>
@@ -239,21 +241,21 @@
                 <image class="safety__image-source" src="safety.webp"></image>
             </div>
         </div>
-        <div class="accesibility">
-            <div class="accessibility__container">
+        <div class="accesibility__container">
+            <div class="accessibility">
                 <image class = "accesibility__image-source" src ="pinkdriver.jpeg"></image>
-                <h2> Making millions of rides more <br> accessible </h2>
-                <p>
-                    A ride is more than just a ride. It's a gateway <br>
-                    to opportunities and jobs. A connection to <br>
-                    community. And access to essentials like <br>
-                    groceries, healthcare, and polling places. Our <br>
-                    LyftUp initiative makes rides more accessible <br>
-                    for millions, and helps bring communities <br> 
+                <h2 class="accesibility__header"> Making millions of rides more <br> accessible </h2>
+                <p class="accesibility__text">
+                    A ride is more than just a ride. It's a gateway 
+                    to opportunities and jobs. A connection to 
+                    community. And access to essentials like
+                    groceries, healthcare, and polling places. Our 
+                    LyftUp initiative makes rides more accessible 
+                    for millions, and helps bring communities
                     even closer.
                 </p>
                 <div class="accesibility__smallheader">
-                    <span>Learn about LyftUp programs</span>
+                    <span class="accesibility__bold">Learn about LyftUp programs</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="accessibility__arrow" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                     </svg>
@@ -264,10 +266,10 @@
             <div class="business__headers">
                 <image class = "business__image-source" src ="lyft-logo.png">
                 </image>
-                <span> business </span> 
+                <span class="business-pic__header"> business </span> 
             </div>
-            <span> We help move <br> employees </span>
-            <p> 
+            <span class="business__header"> We help move <br> employees </span>
+            <p class="business__text"> 
                 From affordable transportation solutions to <br>
                 efforthless expensing, we'll help drive your <br>
                 business forward by <br>
@@ -286,7 +288,7 @@
 
         <div class="type">
             <div class="type__block">
-                <h2>
+                <h2 class="type__bold">
                  DRIVER
                 </h2>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="type__arrow" viewBox="0 0 16 16">
@@ -294,7 +296,7 @@
                 </svg>
             </div>
             <div class="type__block">
-                <h2>
+                <h2 class="type__bold">
                 RIDER
                 </h2>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="type__arrow" viewBox="0 0 16 16">
@@ -302,7 +304,7 @@
                 </svg>
             </div>
             <div class="type__block">
-                <h2>
+                <h2 class="type__bold">
                 LYFT
                 </h2>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="type__arrow" viewBox="0 0 16 16">
@@ -335,21 +337,11 @@
             </div>
                 <div class="footer">
                     <div class="footer__right">
-                        <div class="footer__terms">
-                        Terms
-                        </div>
-                        <div class="footer__privacy">
-                        Privacy
-                        </div>
-                        <div class="footer__Statement">
-                        Accessibility Statement
-                        </div>
-                        <div class="footer__dog">
-                        @ 2022 Lyft, Inc
-                        </div>
-                        <div class="footer__ID">
-                        CPUC ID No. TCP0032513-P
-                        </div>
+                        <a href="google.com " class="footer__text"> Terms </a>
+                        <a href="google.com " class="footer__text"> Privacy </a>
+                        <a href="google.com " class="footer__text"> Accessibility Statement </a>
+                        <p class="footer__text"> @ 2022 Lyft, Inc </p>
+                        <p class="footer__text"> CPUC ID No. TCP0032513-P </p>
                     </div>
                 </div>
 
