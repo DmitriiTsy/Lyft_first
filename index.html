@@ -5,62 +5,58 @@
     <meta content='width=device-width, initial-scale=1.0, user-scalable=0' name='viewport'/>
     <title>Page Title</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles/css/main.css">
 </head>
 <body>
-    <header>
-        <div class="header">
-            <figure class="header__image">
-                <img src="lyft_logo.png" class ="header__image-source" alt="lyft-logo"/>
-            </figure>
-            <div class="header__small-container">
-                <div class="header__search">
-                    <textarea rows="3" cols="1" placeholder="Where are you going?" class="header__textarea"></textarea>
-                    <div class="header__glass">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="header__glass-source" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                        </svg>
-                    </div>
-                    <div class="header__point">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="header__point-img" viewBox="0 0 16 16">
-                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                        </svg>
-                    </div>
+    <header class="header">
+        <div class="header__image">
+            <svg width="199px" class="header__image-source" height="141px" viewBox="0 0 199 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                    <g id="logos" sketch:type="MSArtboardGroup" transform="translate(-112.000000, -79.000000)" fill="#EA0B8C">
+                        <path d="M112.746,82.343 L142.806,82.343 L142.806,163.017 C142.806,175.784 148.646,183.389 153.264,186.649 C148.375,190.995 133.435,194.798 122.298,185.562 C115.732,180.118 112.746,171.166 112.746,162.745 L112.746,82.343 Z M300.609,149.357 L300.609,140.879 L309.777,140.879 L309.777,111.136 L299.709,111.136 C295.844,93.279 279.946,79.898 260.933,79.898 C239.03,79.898 221.275,97.654 221.275,119.556 L221.275,189.015 C227.515,189.892 234.949,188.906 241.274,183.661 C247.839,178.216 250.825,169.265 250.825,160.844 L250.825,158.285 L265.838,158.285 L265.838,128.542 L250.825,128.542 L250.825,119.556 L250.861,119.556 C250.861,113.994 255.37,109.485 260.933,109.485 C266.495,109.485 271.022,113.994 271.022,119.556 L271.022,149.357 C271.022,171.259 288.796,189.015 310.698,189.015 L310.698,159.428 C305.136,159.428 300.609,154.919 300.609,149.357 Z M186.761,111.136 L186.761,154.787 C186.761,157.265 184.705,159.274 182.168,159.274 C179.631,159.274 177.575,157.265 177.575,154.787 L177.575,111.136 L147.831,111.136 L147.831,162.474 C147.831,171.709 150.963,183.389 165.216,187.192 C179.484,190.999 187.761,183.118 187.761,183.118 C187.007,188.31 182.117,192.113 174.24,192.928 C168.28,193.544 160.658,191.57 156.856,189.94 L156.856,217.139 C166.544,219.996 176.791,220.919 186.819,218.973 C205.018,215.442 216.504,200.231 216.504,179.994 L216.504,111.136 L186.761,111.136 Z" id="logo_standard" sketch:type="MSShapeGroup"></path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="header__small-container">
+            <div class="header__search">
+                <label for="header__search-input"></label>
+                <input rows="3" cols="1" placeholder="Where are you going?" class="header__textarea" id="header__search-input"></input>
+                <div class="header__glass">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="header__glass-source" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
                 </div>
-                <div class="header__burger">
-                    <img src="burger.png" class="header__burger-img" alt="burger-button"/>
+                <div class="header__point">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="header__point-img" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
                 </div>
-                <nav class="header__nav">
-                    <div class="header__list">
-                        <span class="header__text">driver</span>
-                    </div>
-                    <div class="header__list">
-                        <span class="header__text">rider</span>
-                    </div>
-                    <div class="header__list">
-                        <span class="header__text">business</span>
-                    </div>
-                    <div class="header__list">
-                        <span class="header__text">log in</span>
-                    </div>
-                    <div class="header__list-sign">
-                        <span class="header__text header__text--long">sign up</span>
-                    </div>
-                </nav>
             </div>
+            <div class="header__burger">
+                <img src="images/burger.png" class="header__burger-img" alt="burger-button"/>
+            </div>
+            <nav class="header__nav">
+                <span class="header__text">driver</span>
+                <span class="header__text">rider</span>
+                <span class="header__text">business</span>
+                <span class="header__text">log in</span>
+                <span class="header__text header__text--long">sign up</span>
+            </nav>
         </div>
     </header>
     <div>
         <div class="let-ride">
             <div class="let-ride__container">
-                <div class="let-ride__container_small">
+                <section class="let-ride__container-small">
                     <h1 class="let-ride__header">Let's ride</h1>
                     <div class="let-ride__buttons">
                         <button class="let-ride__button">Apply to drive</button>
                         <button class="let-ride__button let-ride__button--empty"> Sign up to ride</button>
                     </div>
-                </div>
-                <img class="let-ride__image" src="main__image.webp" alt="lyft-rider-image"/>
+                </section>
+                <img class="let-ride__image" src="images/main__image.webp" alt="lyft-rider-image"/>
             </div>
         </div>
         <div class="drive-with">
@@ -112,11 +108,11 @@
                             </div>
                     </div>
                 </div>
-                <img src="woman.webp" class="drive-with__woman" alt="woman-driver"/>
+                <img src="images/woman.webp" class="drive-with__woman" alt="lyft-driver"/>
             </div>
                 <div class="drive-with__feedback-group">
                     <div class="drive-with__feedback-left">
-                        <img class = "drive-with__driver" src="christine_driver.webp" style = "opacity: 0.5" alt="cristine-driver"/>
+                        <img class="drive-with__driver" src="images/christine_driver.webp" style = "opacity: 0.5" alt="lyft-driver"/>
                         <p class="drive-with__feedback-text">
                             I'm a disabled Marine Corps veteran, and because of my disability, 
                             I'm no longer able to work in a structured environment. 
@@ -127,7 +123,7 @@
                         <span class="drive-with__feedback-text drive-with__feedback-text--italic">Driving with Lyft since 2016</span>
                     </div>
                     <div class="drive-with__feedback">
-                        <img class = "drive-with__driver" src="timothy_driver.webp" alt="timothy-driver"/>
+                        <img class="drive-with__driver" src="images/timothy_driver.webp" alt="lyft-driver"/>
                         <p class="drive-with__feedback-text">
                             “Driving with Lyft is the perfect way 
                             to make money and be there for my 
@@ -141,7 +137,7 @@
                         <span class="drive-with__feedback-text drive-with__feedback-text--italic">Driving with Lyft since 2017</span>
                     </div>
                     <div class="drive-with__feedback-right">
-                        <img class = "drive-with__driver" src="mary_driver.webp" style = "opacity: 0.5" alt=""/>
+                        <img class="drive-with__driver" src="images/mary_driver.webp" style = "opacity: 0.5" alt="lyft-driver"/>
                         <p class="drive-with__feedback-text">
                             “My motto is very simple. It doesn't cost you a penny to be nice and kind, 
                             but it will cost you everything if you're not. 
@@ -178,7 +174,7 @@
         </div>
         <div class="ride">
             <div class="ride__container">
-                <div class="ride__container_text">
+                <div class="ride__container-text">
                     <section class="ride__head">
                     <span class="ride-with-lyft__header">ride with lyft</span>
                     <h2 class="ride__header">Ready, set , go <br> in just a few quick taps</h2>
@@ -210,7 +206,7 @@
                         <button class="let-ride__button">Get a ride</button>
                     </div>
                     <div class="ride__pink-left">
-                        <img src="pink.webp" class="ride__pink-image" alt ="customer-image"/>
+                        <img src="images/pink.webp" class="ride__pink-image" alt ="customer-image"/>
                         <p class="ride-pink__text"><a href="google.com" class="ride__pink-link">Join Lyft Pink</a> to unlock faster 
                             pickups at no extra <br> cost, member-exclusive 
                             pricing, and free roadside <br> assistance for your own car—right in the app.
@@ -219,9 +215,9 @@
                     </div>
                 </div>
                 <div class="ride__container-image">
-                    <img src="screen.webp" class="ride__screenshot" alt = "phone-screenshot"/>
+                    <img src="images/screen.webp" class="ride__screenshot" alt = "phone-screenshot"/>
                     <div class="ride__pink">
-                        <img src="pink.webp" class="ride__pink-image" alt ="customer-image"/>
+                        <img src="images/pink.webp" class="ride__pink-image" alt ="customer-image"/>
                         <p class="ride-pink__text"><a href="google.com" class="ride__pink-link">Join Lyft Pink</a> to unlock faster 
                             pickups at no extra <br> cost, member-exclusive 
                             pricing, and free roadside <br> assistance for your own car—right in the app.
@@ -240,8 +236,12 @@
                     </p>
                 </section>
                 <div class="ride__slider-container">
-                    <img src="left-arrow.png" class="ride__slider-arrows ride__slider-arrows--grey" alt = "phone-screenshot"/>
-                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="ride__slider-arrows" viewBox="0 0 16 16">
+                    <svg src="icons/arrow-left--grey.svg" class="ride__slider-arrows ride__slider-arrows--grey" width="48px" height="48px" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="48" height="48" fill="white" fill-opacity="0.01"/>
+                        <path d="M5.79891 24L41.7989 24" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.7988 36L5.79883 24L17.7988 12" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="ride__slider-arrows" viewBox="0 0 16 16">
                         <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
                     </svg>
                 </div>
@@ -249,68 +249,68 @@
             <div class="ride__cards">
                 <div class="ride__cards-container">
                     <div class="ride__card">
-                        <section class="ride__rentals">
+                        <div class="ride__rentals">
                             <span class="ride__card-header">Rentals</span>
-                            <img src="Lyft__car.png" class="ride__car" alt="Ride__Rentals"/>
+                            <img src="images/Lyft__car.png" class="ride__car" alt="Ride__Rentals"/>
                             <div class="ride__card-points">
                                 <div class="ride__card-point">
-                                    <img src="car-key.png" class="ride__keys" alt="ride__keys"/>
+                                    <img src="images/car-key.png" class="ride__keys" alt="ride__keys"/>
                                     <p>Seamless</p>
                                 </div>
                                 <div class="ride__card-point">
-                                    <img src="earth.png" class="ride__earth" alt="ride__earth"/>
+                                    <img src="images/earth.png" class="ride__earth" alt="ride__earth"/>
                                     <p>Independence</p>
                                 </div>
                             </div>
-                        </section>
+                        </div>
                     </div>
                     <div class="ride__card ride__card--bikes">
-                        <section class="ride__rentals">
+                        <div class="ride__rentals">
                             <span class="ride__card-header">Bikes & Scooters</span>
-                            <img src="Lyft__car.png" class="ride__bike" alt="Ride__Rentals"/>
+                            <img src="images/Lyft__car.png" class="ride__bike" alt="Ride__Rentals"/>
                             <div class="ride__card-points">
                                 <div class="ride__card-point">
-                                    <img src="thunder.png" class="ride__keys" alt="ride__keys"/>
+                                    <img src="images/thunder.png" class="ride__keys" alt="ride__keys"/>
                                     <p>Efficient</p>
                                 </div>
                                 <div class="ride__card-point">
-                                    <img src="ec-friendly.png" class="ride__earth" alt="ride__earth"/>
+                                    <img src="images/ec-friendly.png" class="ride__earth" alt="ride__earth"/>
                                     <p>Eco-friendly</p>
                                 </div>
                             </div>
-                        </section>
+                        </div>
                     </div>
                     <div class="ride__card ride__card--wait">
-                        <section class="ride__rentals">
+                        <div class="ride__rentals">
                             <span class="ride__card-header">Wait & Save </span>
-                            <img src="Lyft__car.png" class="ride__car" alt="Ride__Rentals"/>
+                            <img src="images/Lyft__car.png" class="ride__car" alt="Ride__Rentals"/>
                             <div class="ride__card-points">
                                 <div class="ride__card-point">
-                                    <img src="money.png" class="ride__keys" alt="ride__keys"/>
+                                    <img src="images/money.png" class="ride__keys" alt="ride__keys"/>
                                     <p>Budget-friendly</p>
                                 </div>
                                 <div class="ride__card-point">
-                                    <img src="man.png" class="ride__earth" alt="ride__earth"/>
+                                    <img src="images/man.png" class="ride__earth" alt="ride__earth"/>
                                     <p>Private</p>
                                 </div>
                             </div>
-                        </section>
+                        </div>
                     </div>
                     <div class="ride__card ride__card--lyft">
-                        <section class="ride__rentals">
+                        <div class="ride__rentals">
                             <span class="ride__card-header">Lyft </span>
-                            <img src="Lyft__car.png" class="ride__car" alt="Ride__Rentals"/>
+                            <img src="images/Lyft__car.png" class="ride__car" alt="Ride__Rentals"/>
                             <div class="ride__card-points">
                                 <div class="ride__card-point">
-                                    <img src="thunder.png" class="ride__keys" alt="ride__keys"/>
+                                    <img src="images/thunder.png" class="ride__keys" alt="ride__keys"/>
                                     <p>Efficient</p>
                                 </div>
                                 <div class="ride__card-point">
-                                    <img src="man.png" class="ride__earth" alt="ride__earth"/>
+                                    <img src="images/man.png" class="ride__earth" alt="ride__earth"/>
                                     <p>Private</p>
                                 </div>
                             </div>
-                        </section>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -323,13 +323,15 @@
             <div class="estimation__container">
                 <p class="estimation__header">Ready to roll? <br> Get an estimate. </p>
                     <div class="estimation__textareas">
-                        <textarea rows="1" cols="1" placeholder="Enter pick-up location*" class="estimation__textarea"></textarea>
+                        <label for="estimation__textarea"></label>
+                        <input rows="1" cols="1" placeholder="Enter pick-up location*" class="estimation__textarea" id="estimation__textarea"></input>
                         <div class="estimation__points">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="estimation__point estimation__point--black" viewBox="0 0 16 16">
                                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                             </svg>
                         </div>
-                        <textarea rows="1" cols="1" placeholder="Enter drop-off location*" class="estimation__textarea"></textarea>
+                        <label for="estimation__textarea"></label>
+                        <input rows="1" cols="1" placeholder="Enter drop-off location*" class="estimation__textarea" id="estimation__textarea"></input>
                         <div class="estimation__points">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="estimation__point" viewBox="0 0 16 16">
                                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
@@ -364,14 +366,14 @@
                     </div>
                 </div>
                 <div class="safety__image">
-                <img class="safety__image-source" src="safety.webp" alt ="safety-driver"/>
+                <img class="safety__image-source" src="images/safety.webp" alt ="safety-driver"/>
                 </div>
             </div>
         </div>
         <div class="accesibility__container">
             <div class="accessibility">
                 <div class="accesibility__image-wraper">
-                    <img class = "accesibility__image-source" src="pinkdriver.jpeg" alt="customer-drivers"/>
+                    <img class="accesibility__image-source" src="images/pinkdriver.jpeg" alt="customer-drivers"/>
                 </div>
                 <section>
                     <h2 class="accesibility__header">Making millions of rides more accessible</h2>
@@ -395,7 +397,7 @@
         </div>
         <div class="business">
             <figure class="business__headers">
-                <img class = "business__image-source" src="lyft-logo.png" alt="lyft-logo"/>
+                <img class="business__image-source" src="images/lyft-logo.png" alt="lyft-logo"/>
                 <span class="business-pic__header">business</span> 
             </figure>
             <span class="business__header">We help move <br> employees</span>
@@ -407,9 +409,9 @@
             </p>
             <button class="business__button-source">Learn more</button>
             <div class="business__partner-image">
-                <img class="business__partner-image-source" src="Airbnb-Logo.png" alt ="partners-airbnb"/>
-                <img class="business__partner-image-source-delta" src="delta.png" alt ="partners-delta"/>
-                <img class="business__partner-image-source-ascension" src="ascension.png" alt ="partners-ascension"/>
+                <img class="business__images-airbnb" src="images/Airbnb-Logo.png" alt ="partners-airbnb"/>
+                <img class="business__images-delta" src="images/delta.png" alt ="partners-delta"/>
+                <img class="business__images-ascension" src="images/ascension.png" alt ="partners-ascension"/>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="business__arrow" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
@@ -417,19 +419,61 @@
         </div>
         <div class="type">
             <section class="type__block">
-                <h2 class="type__text type__text--bold">driver</h2>
-                <img class = "type__arrow" src="letter-v.png" alt="type__v-symbol"/>
+                <h3 class="type__text type__text--bold">driver</h3>
+                <svg width="24px" src="icons/type__arrow.svg" class="type__arrow" height="24px" viewBox="0 0 24 24" id="arrow_down" data-name="arrow down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                      <clipPath id="clip-path">
+                        <rect id="Mask" width="24" height="24" fill="none" stroke="#000" stroke-width="1"/>
+                      </clipPath>
+                    </defs>
+                    <g id="_20x20_arrow-back--grey" data-name="20x20/arrow-back--grey" transform="translate(0 24) rotate(-90)">
+                      <rect id="Mask-2" data-name="Mask" width="24" height="24" fill="none"/>
+                      <g id="_20x20_arrow-back--grey-2" data-name="20x20/arrow-back--grey" clip-path="url(#clip-path)">
+                        <g id="Group_2" data-name="Group 2" transform="translate(8 7)">
+                          <path id="Rectangle" d="M0,6.586V0H6.586" transform="translate(0.686 5.157) rotate(-45)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
             </section>
             <section class="type__block">
-                <h2 class="type__text type__text--bold">rider</h2>
-                <img class = "type__arrow" src="letter-v.png" alt="type__v-symbol"/>
+                <h3 class="type__text type__text--bold">rider</h3>
+                <svg width="24px" src="icons/type__arrow.svg" class="type__arrow" height="24px" viewBox="0 0 24 24" id="arrow_down" data-name="arrow down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                      <clipPath id="clip-path">
+                        <rect id="Mask" width="24" height="24" fill="none" stroke="#000" stroke-width="1"/>
+                      </clipPath>
+                    </defs>
+                    <g id="_20x20_arrow-back--grey" data-name="20x20/arrow-back--grey" transform="translate(0 24) rotate(-90)">
+                      <rect id="Mask-2" data-name="Mask" width="24" height="24" fill="none"/>
+                      <g id="_20x20_arrow-back--grey-2" data-name="20x20/arrow-back--grey" clip-path="url(#clip-path)">
+                        <g id="Group_2" data-name="Group 2" transform="translate(8 7)">
+                          <path id="Rectangle" d="M0,6.586V0H6.586" transform="translate(0.686 5.157) rotate(-45)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
             </section>
             <section class="type__block">
-                <h2 class="type__text type__text--bold">lyft</h2>
-                <img class = "type__arrow" src="letter-v.png" alt="type__v-symbol"/>
+                <h3 class="type__text type__text--bold">lyft</h3>
+                <svg width="24px" src="icons/type__arrow.svg" class="type__arrow" height="24px" viewBox="0 0 24 24" id="arrow_down" data-name="arrow down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                      <clipPath id="clip-path">
+                        <rect id="Mask" width="24" height="24" fill="none" stroke="#000" stroke-width="1"/>
+                      </clipPath>
+                    </defs>
+                    <g id="_20x20_arrow-back--grey" data-name="20x20/arrow-back--grey" transform="translate(0 24) rotate(-90)">
+                      <rect id="Mask-2" data-name="Mask" width="24" height="24" fill="none"/>
+                      <g id="_20x20_arrow-back--grey-2" data-name="20x20/arrow-back--grey" clip-path="url(#clip-path)">
+                        <g id="Group_2" data-name="Group 2" transform="translate(8 7)">
+                          <path id="Rectangle" d="M0,6.586V0H6.586" transform="translate(0.686 5.157) rotate(-45)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
             </section>
-            <div class="type__driver">
-                <h2 class="type__header">driver</h2>
+            <section class="type__driver">
+                <h3 class="type__header">driver</h3>
                 <article class="type__text">
                     <span>Become a Driver</span>
                     <span>Earnings</span>
@@ -444,9 +488,9 @@
                     <span>Insurance</span>
                     <span>Hub</span>
                 </article>
-            </div>
-            <div class="type__driver">
-                <h2 class="type__header">rider</h2>
+            </section>
+            <section class="type__driver">
+                <h3 class="type__header">rider</h3>
                 <article class="type__text">
                     <span>Sign up to ride</span>
                     <span>Fare Estimate</span>
@@ -462,9 +506,9 @@
                     <span>Donate</span>
                     <span>Blog</span>
                 </article>
-            </div>
-            <div class="type__driver">
-                <h2 class="type__header">lyft</h2>
+            </section>
+            <section class="type__driver">
+                <h3 class="type__header">lyft</h3>
                 <article class="type__text">
                     <span>Careers</span>
                     <span>LyftUp</span>
@@ -478,7 +522,7 @@
                     <span>Press</span>
                     <span>Investor Relations</span>
                 </article>
-            </div>
+            </section>
             <div class="type__buttons">
                 <button class="type__button">Lyft driver app</button>
                 <button class="type__button">Lyft rider app</button>

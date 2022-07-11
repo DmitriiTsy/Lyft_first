@@ -5,13 +5,12 @@
     border-bottom: 0.5px solid #D8D8DE;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 15px 0px 6px;
+    padding: 0px 15px 0px 16px;
 }
 
 .header__glass {
-    position: relative;
     bottom: 35px;
-    left: 6px;
+    margin-left: 6px;
 }
 
 .header__glass-source {
@@ -19,6 +18,7 @@
     height: 12px;
     position: absolute;
     color: #DF01A6;
+    top: 32px;
 }
 
 .header__point-img {
@@ -34,8 +34,8 @@
 }
 
 .header__image {
-    height: 5px;
-    width: 5px;
+    height: 50px;
+    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,8 +43,8 @@
 }
 
 .header__image-source {
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     color: #FF00BF;
 }
 
@@ -65,9 +65,10 @@
     border: 1px solid #9191A2;
     font-size: 15px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-left: 25px;
     text-align: left;
+    padding-bottom: 10px;
 }
 
 .header__nav {
@@ -95,7 +96,7 @@
     gap: 30px;
 }
 
-.let-ride__container_small {
+.let-ride__container-small {
     text-align: center;
 }
 
@@ -165,7 +166,6 @@
     font-weight: 600;
     width: 100%;
     line-height: 1.2;
-    margin: 0px;
 }
 
 .drive-with__list {
@@ -201,7 +201,6 @@
     font-size: 17px;
     font-weight: 300;
     display: block;
-    margin: 0px;
 }
 
 .drive-with__text--bold {
@@ -267,7 +266,7 @@
 }
 
 .drive-with__feedback-text--italic {
-    font-weight: 30;
+    font-weight: 300;
     font-style: italic;
     font-size: 20px;
 }
@@ -450,6 +449,8 @@
     display: flex;
     flex-direction: row;
     gap: 44px;
+    align-items: center;
+    justify-content: center;
 }
 
 .ride__slider-arrows {
@@ -459,7 +460,9 @@
 }
 
 .ride__slider-arrows--grey {
-    color: #A2A3B1
+    color: #A2A3B1;
+    width: 35px;
+    height: 35px;
 }
 
 .ride-cards__text {
@@ -577,11 +580,11 @@
     border-radius: 15px;
     border: 1px solid black;
     font-size: 16px;
-    padding: 4px 10px 0px 0px;
     display: flex;
     position: relative;
     text-align: left;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 45px;
     white-space: nowrap;
 }
@@ -626,7 +629,7 @@
 
 .estimation__points {
     position: relative;
-    bottom: 35px;
+    bottom: 38px;
     right: 43%;
 }
 
@@ -849,8 +852,8 @@
 }
 
 .type__arrow {
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
 }
 
 .type__buttons {
@@ -944,15 +947,15 @@
     gap: 10px;
 }
 
-.business__partner-image-source-delta {
+.business__images-delta {
     display: none;
 }
 
-.business__partner-image-source-ascension {
+.business__images-ascension {
     display: none;
 }
 
-.business__partner-image-source {
+.business__images-airbnb {
     width: 40%;
     height: 50%;
     max-width: 40%;
@@ -1004,6 +1007,7 @@
 
     .header__glass-source {
         color: #000000;
+        top: 0px;
     }
 
     .drive-with__feedback-text {
@@ -1256,11 +1260,11 @@
         width: 70%;
     }
 
-    .business__partner-image-source-delta {
+    .business__images-delta {
         display: none;
     }
     
-    .business__partner-image-source-ascension {
+    .business__images-ascension {
         width: 170px;
         height: 70px;
         max-width: 260px;
@@ -1268,7 +1272,7 @@
         display: flex;
     }
     
-    .business__partner-image-source {
+    .business__images-airbnb {
         width: 170px;
         height: 70px;
         max-width: 260px;
@@ -1397,7 +1401,7 @@
         height: 50%;
     }
 
-    .let-ride__container_small {
+    .let-ride__container-small {
         padding-bottom: 100px;
     }
 
@@ -1418,6 +1422,7 @@
     .header__small-container {
         align-items: center;
         justify-content: flex-start;
+        padding-left: 10px;
     }
 
     .header__textarea {
@@ -1441,7 +1446,10 @@
         left: 280px;
     }
 
-    .header__list {
+    .header__text {
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
         width: 70px;
         height: 100%;
         border-left: 0.5px solid #D8D8DE;
@@ -1451,7 +1459,11 @@
         padding: 0px 0px 0px 20px
     }
 
-    .header__list-sign {
+    .header__text--long {
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        width: 100px;
         width: 100px;
         height: 100%;
         border-left: 0.5px solid #D8D8DE;
@@ -1459,19 +1471,6 @@
         display: flex;
         align-items: center;
         padding: 0px 0px 0px 20px;
-        width: 100px;
-    }
-
-    .header__text {
-        font-weight: 600;
-        font-size: 16px;
-        text-transform: uppercase;
-    }
-
-    .header__text--long {
-        font-weight: 600;
-        font-size: 16px;
-        text-transform: uppercase;
         width: 100px;
     }
 
@@ -1639,7 +1638,7 @@
        gap: 120px;
     }
 
-    .business__partner-image-source-delta {
+    .business__images-delta {
         width: 170px;
         height: 70px;
         max-width: 260px;
@@ -1683,17 +1682,4 @@
         justify-content: flex-end;
         align-items: center
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
