@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1.0, user-scalable=0' name='viewport'/>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__image">
+            <svg width="199px" class="header__image-source" height="141px" viewBox="0 0 199 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                    <g id="logos" sketch:type="MSArtboardGroup" transform="translate(-112.000000, -79.000000)" fill="#EA0B8C">
+                        <path d="M112.746,82.343 L142.806,82.343 L142.806,163.017 C142.806,175.784 148.646,183.389 153.264,186.649 C148.375,190.995 133.435,194.798 122.298,185.562 C115.732,180.118 112.746,171.166 112.746,162.745 L112.746,82.343 Z M300.609,149.357 L300.609,140.879 L309.777,140.879 L309.777,111.136 L299.709,111.136 C295.844,93.279 279.946,79.898 260.933,79.898 C239.03,79.898 221.275,97.654 221.275,119.556 L221.275,189.015 C227.515,189.892 234.949,188.906 241.274,183.661 C247.839,178.216 250.825,169.265 250.825,160.844 L250.825,158.285 L265.838,158.285 L265.838,128.542 L250.825,128.542 L250.825,119.556 L250.861,119.556 C250.861,113.994 255.37,109.485 260.933,109.485 C266.495,109.485 271.022,113.994 271.022,119.556 L271.022,149.357 C271.022,171.259 288.796,189.015 310.698,189.015 L310.698,159.428 C305.136,159.428 300.609,154.919 300.609,149.357 Z M186.761,111.136 L186.761,154.787 C186.761,157.265 184.705,159.274 182.168,159.274 C179.631,159.274 177.575,157.265 177.575,154.787 L177.575,111.136 L147.831,111.136 L147.831,162.474 C147.831,171.709 150.963,183.389 165.216,187.192 C179.484,190.999 187.761,183.118 187.761,183.118 C187.007,188.31 182.117,192.113 174.24,192.928 C168.28,193.544 160.658,191.57 156.856,189.94 L156.856,217.139 C166.544,219.996 176.791,220.919 186.819,218.973 C205.018,215.442 216.504,200.231 216.504,179.994 L216.504,111.136 L186.761,111.136 Z" id="logo_standard" sketch:type="MSShapeGroup"></path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="header__small-container">
+            <div class="header__search">
+                <label for="header__search-input"></label>
+                <input rows="3" cols="1" placeholder="Where are you going?" class="header__textarea" id="header__search-input"></input>
+                <div class="header__glass">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="header__glass-source" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </div>
+                <div class="header__point">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="header__point-img" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="header__burger">
+                <img src="images/burger.png" class="header__burger-img" alt="burger-button"/>
+            </div>
+            <nav class="header__nav">
+                <span class="header__text">driver</span>
+                <span class="header__text">rider</span>
+                <span class="header__text">business</span>
+                <span class="header__text">log in</span>
+                <span class="header__text header__text--long">sign up</span>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <div class="let-ride">
+            <div class="let-ride__container">
+                <section class="let-ride__container-small">
+                    <h1 class="let-ride__header">Let's ride</h1>
+                    <div class="let-ride__buttons">
+                        <button class="let-ride__button">Apply to drive</button>
+                        <button class="let-ride__button let-ride__button--empty"> Sign up to ride</button>
+                    </div>
+                </section>
+                <img class="let-ride__image" src="images/main__image.webp" alt="lyft-rider-image"/>
+            </div>
+        </div>
+        <div class="drive-with">
+            <div class="drive-with__container">
+                <span class="drive-with-lyft__header">drive with lyft</span>
+                <p class="drive-with-set__header">Set your own hours. Earn on your own terms.</p>
+                <div class="drive-with__small-container">
+                    <div class="drive-with__image">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="drive-with__icon" viewBox="0 0 16 16">
+                            <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                            <path d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z"/>
+                        </svg>
+                    </div>
+                    <div class="drive-with__text-section">
+                        <strong class="drive-with__text drive-with__text--bold"> Reliable earnings: </strong>
+                        <p class="drive-with__text">Make money, keep your tips, and cash out when you want.</p>
+                    </div>
+                </div>
+                <div class="drive-with__small-container">
+                    <div class="drive-with__image">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="drive-with__icon" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                        </svg>
+                    </div>
+                    <div class="drive-with__text-section">
+                        <strong class="drive-with__text drive-with__text--bold">A flexible schedule:</strong>
+                        <p class="drive-with__text">Be your own boss and drive whenever it works for you.</p>
+                    </div>
+                </div>
+                <div class="drive-with__small-container">
+                    <div class="drive-with__image">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="drive-with__icon" viewBox="0 0 16 16">
+                            <path d="M2 1.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1-.5-.5zm2.5.5v1a3.5 3.5 0 0 0 1.989 3.158c.533.256 1.011.791 1.011 1.491v.702c0 .7-.478 1.235-1.011 1.491A3.5 3.5 0 0 0 4.5 13v1h7v-1a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351v-.702c0-.7.478-1.235 1.011-1.491A3.5 3.5 0 0 0 11.5 3V2h-7z"/>
+                        </svg>
+                    </div>
+                    <div class="drive-with__text-section">
+                        <strong class="drive-with__text drive-with__text--bold">Get paid instantly:</strong>
+                        <p class="drive-with__text">Cash out your earnings whenever you want.</p>
+                    </div>
+                </div>
+                    <div class="drive-with__buttons">
+                        <button class="let-ride__button">Apply to drive</button>
+                            <div class="drive-with__how-driver-pay-container">
+                                <span class="drive-with__text drive-with__text--bold">How driver pay works</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="drive-with__icon" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </div>
+                    </div>
+                </div>
+                <img src="images/woman.webp" class="drive-with__woman" alt="lyft-driver"/>
+            </div>
+                <div class="drive-with__feedback-group">
+                    <div class="drive-with__feedback-left">
+                        <img class="drive-with__driver" src="images/christine_driver.webp" style = "opacity: 0.5" alt="lyft-driver"/>
+                        <p class="drive-with__feedback-text">
+                            I'm a disabled Marine Corps veteran, and because of my disability, 
+                            I'm no longer able to work in a structured environment. 
+                            The few hours a week that I drive connects me to my community 
+                            and gives me extra money to help make ends meet.”
+                        </p>
+                        <p class="drive-with__feedback-sign">— Christine</p>
+                        <span class="drive-with__feedback-text drive-with__feedback-text--italic">Driving with Lyft since 2016</span>
+                    </div>
+                    <div class="drive-with__feedback">
+                        <img class="drive-with__driver" src="images/timothy_driver.webp" alt="lyft-driver"/>
+                        <p class="drive-with__feedback-text">
+                            “Driving with Lyft is the perfect way 
+                            to make money and be there for my 
+                            family’s needs. I love providing a 
+                            way to get my passengers 
+                            from point A to B. Independence is key
+                            for me, and I enjoy meeting new 
+                            people while driving!”
+                        </p>
+                        <p class="drive-with__feedback-sign">— Timothy</p>
+                        <span class="drive-with__feedback-text drive-with__feedback-text--italic">Driving with Lyft since 2017</span>
+                    </div>
+                    <div class="drive-with__feedback-right">
+                        <img class="drive-with__driver" src="images/mary_driver.webp" style = "opacity: 0.5" alt="lyft-driver"/>
+                        <p class="drive-with__feedback-text">
+                            “My motto is very simple. It doesn't cost you a penny to be nice and kind, 
+                            but it will cost you everything if you're not. 
+                            If I'm free and somebody needs my help, I'll be the first one to jump in, 
+                            in a heartbeat.”
+                        </p>
+                        <p class="drive-with__feedback-sign"> — Mary</p>
+                        <span class="drive-with__feedback-text drive-with__feedback-text--italic">Driving with Lyft since 2019</span>
+                    </div>
+                </div>
+
+            <div class="drive-with__slider">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="drive-with__arrow" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                </svg>
+                <div class="drive-with__points">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="point" viewBox="0 0 16 16">
+                        <circle cx="8" cy="8" r="8"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="point" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="point" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="point" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    </svg>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="drive-with__arrow" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                </svg>
+            </div>
+        </div>
+        <div class="ride">
+            <div class="ride__container">
+                <div class="ride__container-text">
+                    <section class="ride__head">
+                    <span class="ride-with-lyft__header">ride with lyft</span>
+                    <h2 class="ride__header">Ready, set , go <br> in just a few quick taps</h2>
+                    <p class="ride__text">No matter your deestination, we'll get you <br> where you need to go</p>
+                    </section>
+                    <div class="ride__list">
+                <div class="ride__point">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="ride__icon" viewBox="0 0 16 16">
+                        <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                        <path fill-rule="evenodd" d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                    </svg>
+                    <strong class="ride__text ride__text--bold">Get a reliable ride in minutes</strong>
+                </div>
+                <div class="ride__point">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="ride__icon" viewBox="0 0 16 16">
+                        <path d="M6.225 1.227A7.5 7.5 0 0 1 10.5 8a7.5 7.5 0 0 1-4.275 6.773 7 7 0 1 0 0-13.546zM4.187.966a8 8 0 1 1 7.627 14.069A8 8 0 0 1 4.186.964z"/>
+                    </svg>
+                    <strong class="ride__text ride__text--bold">Know that your driver is wearing a mask</strong>
+                </div>
+                <div class="ride__point">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="ride__icon" viewBox="0 0 16 16">
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z"/>
+                        <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                    </svg>
+                    <strong class="ride__text ride__text--bold">Schedule your ride in advance</strong>
+                </div>
+                    </div>
+                    <div class="ride__getride">
+                        <button class="let-ride__button">Get a ride</button>
+                    </div>
+                    <div class="ride__pink-left">
+                        <img src="images/pink.webp" class="ride__pink-image" alt ="customer-image"/>
+                        <p class="ride-pink__text"><a href="google.com" class="ride__pink-link">Join Lyft Pink</a> to unlock faster 
+                            pickups at no extra <br> cost, member-exclusive 
+                            pricing, and free roadside <br> assistance for your own car—right in the app.
+                            All for <br> $9.99/month. Available in the U.S. only.
+                        </p>
+                    </div>
+                </div>
+                <div class="ride__container-image">
+                    <img src="images/screen.webp" class="ride__screenshot" alt = "phone-screenshot"/>
+                    <div class="ride__pink">
+                        <img src="images/pink.webp" class="ride__pink-image" alt ="customer-image"/>
+                        <p class="ride-pink__text"><a href="google.com" class="ride__pink-link">Join Lyft Pink</a> to unlock faster 
+                            pickups at no extra <br> cost, member-exclusive 
+                            pricing, and free roadside <br> assistance for your own car—right in the app.
+                            All for <br> $9.99/month. Available in the U.S. only.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ride__Ride-Bike-Scoot">
+                <section>
+                    <h2 class="ride-bike__header">Ride. Bike. Scoot. Go bananas.</h2> 
+                    <p class="ride-bike__text">
+                    We’ve got options to get you where you’re
+                    going. Choose a ride* that suits your mood and
+                    budget.
+                    </p>
+                </section>
+                <div class="ride__slider-container">
+                    <svg src="icons/arrow-left--grey.svg" class="ride__slider-arrows ride__slider-arrows--grey" width="48px" height="48px" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="48" height="48" fill="white" fill-opacity="0.01"/>
+                        <path d="M5.79891 24L41.7989 24" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.7988 36L5.79883 24L17.7988 12" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="ride__slider-arrows" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="ride__cards">
+                <div class="ride__cards-container">
+                    <div class="ride__card">
+                        <div class="ride__rentals">
+                            <span class="ride__card-header">Rentals</span>
+                            <img src="images/Lyft__car.png" class="ride__car" alt="Ride__Rentals"/>
+                            <div class="ride__card-points">
+                                <div class="ride__card-point">
+                                    <img src="images/car-key.png" class="ride__keys" alt="ride__keys"/>
+                                    <p>Seamless</p>
+                                </div>
+                                <div class="ride__card-point">
+                                    <img src="images/earth.png" class="ride__earth" alt="ride__earth"/>
+                                    <p>Independence</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ride__card ride__card--bikes">
+                        <div class="ride__rentals">
+                            <span class="ride__card-header">Bikes & Scooters</span>
+                            <img src="images/Lyft__car.png" class="ride__bike" alt="Ride__Rentals"/>
+                            <div class="ride__card-points">
+                                <div class="ride__card-point">
+                                    <img src="images/thunder.png" class="ride__keys" alt="ride__keys"/>
+                                    <p>Efficient</p>
+                                </div>
+                                <div class="ride__card-point">
+                                    <img src="images/ec-friendly.png" class="ride__earth" alt="ride__earth"/>
+                                    <p>Eco-friendly</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ride__card ride__card--wait">
+                        <div class="ride__rentals">
+                            <span class="ride__card-header">Wait & Save </span>
+                            <img src="images/Lyft__car.png" class="ride__car" alt="Ride__Rentals"/>
+                            <div class="ride__card-points">
+                                <div class="ride__card-point">
+                                    <img src="images/money.png" class="ride__keys" alt="ride__keys"/>
+                                    <p>Budget-friendly</p>
+                                </div>
+                                <div class="ride__card-point">
+                                    <img src="images/man.png" class="ride__earth" alt="ride__earth"/>
+                                    <p>Private</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ride__card ride__card--lyft">
+                        <div class="ride__rentals">
+                            <span class="ride__card-header">Lyft </span>
+                            <img src="images/Lyft__car.png" class="ride__car" alt="Ride__Rentals"/>
+                            <div class="ride__card-points">
+                                <div class="ride__card-point">
+                                    <img src="images/thunder.png" class="ride__keys" alt="ride__keys"/>
+                                    <p>Efficient</p>
+                                </div>
+                                <div class="ride__card-point">
+                                    <img src="images/man.png" class="ride__earth" alt="ride__earth"/>
+                                    <p>Private</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="ride-cards__text">
+                *Availability of bikes, scooters, rentals, ride types, and transit
+                information varies by region.
+                </p>
+        </div>
+        <div class="estimation">
+            <div class="estimation__container">
+                <p class="estimation__header">Ready to roll? <br> Get an estimate. </p>
+                    <div class="estimation__textareas">
+                        <label for="estimation__textarea"></label>
+                        <input rows="1" cols="1" placeholder="Enter pick-up location*" class="estimation__textarea" id="estimation__textarea"></input>
+                        <div class="estimation__points">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="estimation__point estimation__point--black" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            </svg>
+                        </div>
+                        <label for="estimation__textarea"></label>
+                        <input rows="1" cols="1" placeholder="Enter drop-off location*" class="estimation__textarea" id="estimation__textarea"></input>
+                        <div class="estimation__points">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="estimation__point" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            </svg>
+                        </div>
+                    </div>
+                <div class="estimation__buttons">
+                    <button class="estimation__button">Get estimate</button>
+                </div>
+            </div>
+        </div>
+        <div class="safety">
+            <div class="safety__container">
+                <div class="safety__container_text">
+                    <section>
+                <span class="safety-first__header"> safety first </span>
+                <h2 class="safety__header">Your safety comes first. Always.</h2>
+                <p class="safety__text"> We look out for you before, during, and after 
+                    every single ride. And we monitor rides to 
+                    help you get where you need to go. If you 
+                    ever need it, we're standing by, ready to help.
+                </p>
+                    </section>
+                    <div class="button__with-text">
+                        <button class="safety__button">Learn about safety</button>
+                        <div class="safety__smallheader">
+                <span class="safety__text safety__text--bold">Community guidelines</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="safety__arrow" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="safety__image">
+                <img class="safety__image-source" src="images/safety.webp" alt ="safety-driver"/>
+                </div>
+            </div>
+        </div>
+        <div class="accesibility__container">
+            <div class="accessibility">
+                <div class="accesibility__image-wraper">
+                    <img class="accesibility__image-source" src="images/pinkdriver.jpeg" alt="customer-drivers"/>
+                </div>
+                <section>
+                    <h2 class="accesibility__header">Making millions of rides more accessible</h2>
+                    <p class="accesibility__text">
+                    A ride is more than just a ride. It's a gateway 
+                    to opportunities and jobs. A connection to 
+                    community. And access to essentials like
+                    groceries, healthcare, and polling places. Our 
+                    LyftUp initiative makes rides more accessible 
+                    for millions, and helps bring communities
+                    even closer.
+                    </p>
+                </section>
+                <div class="accesibility__smallheader">
+                    <span class="accesibility__text accesibility__text--bold">Learn about LyftUp programs</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="accessibility__arrow" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="business">
+            <figure class="business__headers">
+                <img class="business__image-source" src="images/lyft-logo.png" alt="lyft-logo"/>
+                <span class="business-pic__header">business</span> 
+            </figure>
+            <span class="business__header">We help move <br> employees</span>
+            <p class="business__text"> 
+                    From affordable transportation solutions to 
+                    efforthless expensing, we'll help drive your 
+                    business forward by
+                    getting your people where they need to go. 
+            </p>
+            <button class="business__button-source">Learn more</button>
+            <div class="business__partner-image">
+                <img class="business__images-airbnb" src="images/Airbnb-Logo.png" alt ="partners-airbnb"/>
+                <img class="business__images-delta" src="images/delta.png" alt ="partners-delta"/>
+                <img class="business__images-ascension" src="images/ascension.png" alt ="partners-ascension"/>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="business__arrow" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+        </div>
+        <div class="type">
+            <section class="type__block">
+                <h3 class="type__text type__text--bold">driver</h3>
+                <svg width="24px" src="icons/type__arrow.svg" class="type__arrow" height="24px" viewBox="0 0 24 24" id="arrow_down" data-name="arrow down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                      <clipPath id="clip-path">
+                        <rect id="Mask" width="24" height="24" fill="none" stroke="#000" stroke-width="1"/>
+                      </clipPath>
+                    </defs>
+                    <g id="_20x20_arrow-back--grey" data-name="20x20/arrow-back--grey" transform="translate(0 24) rotate(-90)">
+                      <rect id="Mask-2" data-name="Mask" width="24" height="24" fill="none"/>
+                      <g id="_20x20_arrow-back--grey-2" data-name="20x20/arrow-back--grey" clip-path="url(#clip-path)">
+                        <g id="Group_2" data-name="Group 2" transform="translate(8 7)">
+                          <path id="Rectangle" d="M0,6.586V0H6.586" transform="translate(0.686 5.157) rotate(-45)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+            </section>
+            <section class="type__block">
+                <h3 class="type__text type__text--bold">rider</h3>
+                <svg width="24px" src="icons/type__arrow.svg" class="type__arrow" height="24px" viewBox="0 0 24 24" id="arrow_down" data-name="arrow down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                      <clipPath id="clip-path">
+                        <rect id="Mask" width="24" height="24" fill="none" stroke="#000" stroke-width="1"/>
+                      </clipPath>
+                    </defs>
+                    <g id="_20x20_arrow-back--grey" data-name="20x20/arrow-back--grey" transform="translate(0 24) rotate(-90)">
+                      <rect id="Mask-2" data-name="Mask" width="24" height="24" fill="none"/>
+                      <g id="_20x20_arrow-back--grey-2" data-name="20x20/arrow-back--grey" clip-path="url(#clip-path)">
+                        <g id="Group_2" data-name="Group 2" transform="translate(8 7)">
+                          <path id="Rectangle" d="M0,6.586V0H6.586" transform="translate(0.686 5.157) rotate(-45)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+            </section>
+            <section class="type__block">
+                <h3 class="type__text type__text--bold">lyft</h3>
+                <svg width="24px" src="icons/type__arrow.svg" class="type__arrow" height="24px" viewBox="0 0 24 24" id="arrow_down" data-name="arrow down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                      <clipPath id="clip-path">
+                        <rect id="Mask" width="24" height="24" fill="none" stroke="#000" stroke-width="1"/>
+                      </clipPath>
+                    </defs>
+                    <g id="_20x20_arrow-back--grey" data-name="20x20/arrow-back--grey" transform="translate(0 24) rotate(-90)">
+                      <rect id="Mask-2" data-name="Mask" width="24" height="24" fill="none"/>
+                      <g id="_20x20_arrow-back--grey-2" data-name="20x20/arrow-back--grey" clip-path="url(#clip-path)">
+                        <g id="Group_2" data-name="Group 2" transform="translate(8 7)">
+                          <path id="Rectangle" d="M0,6.586V0H6.586" transform="translate(0.686 5.157) rotate(-45)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+            </section>
+            <section class="type__driver">
+                <h3 class="type__header">driver</h3>
+                <article class="type__text">
+                    <span>Become a Driver</span>
+                    <span>Earnings</span>
+                    <span>Cities</span>
+                    <span>Help</span>
+                    <span>Application</span>
+                    <span>Requirements</span>
+                    <span>Express Drive</span>
+                    <span>Bonus</span>
+                    <span>Lyft Rewards</span>
+                    <span>Driving opportunities</span>
+                    <span>Insurance</span>
+                    <span>Hub</span>
+                </article>
+            </section>
+            <section class="type__driver">
+                <h3 class="type__header">rider</h3>
+                <article class="type__text">
+                    <span>Sign up to ride</span>
+                    <span>Fare Estimate</span>
+                    <span>Lyft Pink</span>
+                    <span>Cities</span>
+                    <span>Help</span>
+                    <span>Safety</span>
+                    <span>Business Profile</span>
+                    <span>Rewards</span>
+                    <span>Events</span>
+                    <span>Airports</span>
+                    <span>Gift cards</span>
+                    <span>Donate</span>
+                    <span>Blog</span>
+                </article>
+            </section>
+            <section class="type__driver">
+                <h3 class="type__header">lyft</h3>
+                <article class="type__text">
+                    <span>Careers</span>
+                    <span>LyftUp</span>
+                    <span>Business</span>
+                    <span>Rentals</span>
+                    <span>Bikes</span>
+                    <span>Scooters</span>
+                    <span>Self-Driving</span>
+                    <span>Lyft Media</span>
+                    <span>Developers</span>
+                    <span>Press</span>
+                    <span>Investor Relations</span>
+                </article>
+            </section>
+            <div class="type__buttons">
+                <button class="type__button">Lyft driver app</button>
+                <button class="type__button">Lyft rider app</button>
+                <button class="type__button">Ride on web</button>
+            </div>
+        </div>
+    </main>
+    <div class="footer__wrapper">
+        <footer class="footer">
+        <div class="type__social-wrapper">
+            <div class="type__social">
+                <div class="type__social-media">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="type__social-icon" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="type__social-icon" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="type__social-icon" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="footer__right-terms-rights">
+            <div class="footer__right-terms">
+                <a href="google.com" class="footer__text">Terms</a>
+                <a href="google.com" class="footer__text">Privacy</a>
+                <a href="google.com" class="footer__text">Accessibility Statement</a>
+            </div>
+            <div class="footer__right-rights">
+                <p class="footer__text">@ 2022 Lyft, Inc</p>
+                <p class="footer__text">CPUC ID No. TCP0032513-P</p>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
+
+
+
+

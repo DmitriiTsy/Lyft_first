@@ -1,0 +1,1685 @@
+/* header */
+.header {
+    display: flex;
+    height: 80px;
+    border-bottom: 0.5px solid #D8D8DE;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px 0px 16px;
+}
+
+.header__glass {
+    bottom: 35px;
+    margin-left: 6px;
+}
+
+.header__glass-source {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    color: #DF01A6;
+    top: 32px;
+}
+
+.header__point-img {
+    display: none;
+}
+
+.header__small-container {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__image {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF00BF;
+}
+
+.header__image-source {
+    height: 50px;
+    width: 50px;
+    color: #FF00BF;
+}
+
+.header__burger {
+    height: 20px;
+    width: 30px;
+    display: flex;
+}
+
+.header__burger-img {
+    width: 30px
+}
+
+.header__textarea {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #9191A2;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 25px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.header__nav {
+    display: none;
+}
+
+/*let's ride section  */
+
+.let-ride {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 0px 50px 0px;
+}
+
+.let-ride__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.let-ride__container-small {
+    text-align: center;
+}
+
+.let-ride__header {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.let-ride__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.let-ride__button {
+    line-height: 2.5;
+    padding: 0px 7px 0px 7px;
+    font-size: 17px;
+    width: 150px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 20px;
+    background-color: #523be4;
+    font-weight: 60;
+}
+
+.let-ride__button--empty {
+    line-height: 2.5;
+    padding: 0px 7px 0px 7px;
+    font-size: 17px;
+    width: 150px;
+    color: #000;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+    font-weight: 600;
+}
+
+.let-ride__image{
+    width: 92%;
+    height: 92%;
+}
+
+/* Drive - with section */ 
+
+.drive-with {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #F4F4F9;
+    padding: 100px 20px 40px 18px;
+}
+
+.drive-with-lyft__header {
+    font-size: 17px;
+    font-weight: 600;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.drive-with-set__header {
+    font-size: 30px;
+    font-weight: 600;
+    width: 100%;
+    line-height: 1.2;
+}
+
+.drive-with__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    justify-content: left;
+}
+
+.drive-with__small-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.5;
+}
+
+.drive-with__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.drive-with__text-section {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.drive-with__text {
+    font-size: 17px;
+    font-weight: 300;
+    display: block;
+}
+
+.drive-with__text--bold {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.drive-with__icon {
+    width: 25px;
+    height: 25px;
+}
+
+.drive-with__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.drive-with__how-driver-pay-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.drive-with__pic {
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+
+.drive-with__woman {
+    width: 100%;
+    height: 100%;
+}
+
+.drive-with__feedback {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F4F4F9;
+}
+
+.drive-with__feedback-text {
+    font-size: 20px;
+    font-weight: 40;
+    line-height: 1.5;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.drive-with__feedback-sign {
+    font-size: 20px;
+    font-weight: 40;
+    line-height: 1.5;
+    width: 100%;
+    margin: 0px;
+}
+
+.drive-with__feedback-text--italic {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.drive-with__driver {
+    width: 80px;
+    height: 80px;
+}
+
+.drive-with__slider {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    background-color: #F4F4F9;
+    padding-bottom: 50px;
+}
+
+.drive-with__points {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.drive-with__arrow {
+    width: 25px;
+    height: 25px;
+}
+
+.point {
+    width: 10px;
+    height: 10px;
+}
+
+.drive-with__feedback-right {
+    display: none;
+}
+
+.drive-with__feedback-left {
+    display: none;
+}
+
+/* Ride with Lyft */
+
+.ride {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px 100px 0px;
+    background-color: #FFFFFF;
+}
+
+.ride__head {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.ride__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.ride__point {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.ride-with-lyft__header {
+    font-size: 17px;
+    font-weight: 600;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.ride__header {
+    font-size: 30px;
+    font-weight: 600;
+    width: 100%;
+    line-height: 1.2;
+    margin: 0px;
+}
+
+.ride__text {
+    font-size: 17px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.ride__text--bold {
+    font-size: 17px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.ride__icon {
+    width: 20px;
+    height: 20px;
+}
+
+.ride__screenshot {
+    height: 100%;
+    width: 100%;
+}
+
+.ride__getride {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.ride__pink {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.ride-pink__text {
+    font-size: 15px;
+}
+
+.ride__pink-image {
+    display: flex;
+    width: 100px;
+    height: 30px;
+}
+
+.ride__pink-link {
+    color:#000;
+}
+
+.ride__pink-left {
+    display: none;
+}
+
+/*choose ride */
+
+.ride__Ride-Bike-Scoot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+    padding: 10px 0px 10px 0px;
+}
+
+.ride-bike__header {
+    font-size: 30px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.ride-bike__text {
+    font-size: 17px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.ride__slider-container {
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ride__slider-arrows {
+    width: 35px;
+    height: 35px;
+    color:#523be4
+}
+
+.ride__slider-arrows--grey {
+    color: #A2A3B1;
+    width: 35px;
+    height: 35px;
+}
+
+.ride-cards__text {
+    font-size: 13px;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    color: grey;
+    width: 80%
+}
+
+.ride__cards {
+    text-align: center;
+    color: grey;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ride__car {
+    width: 160px;
+    height: 80px;
+}
+
+.ride__keys {
+    width: 15px;
+    height: 15px;
+}
+
+.ride__earth {
+    width: 15px;
+    height: 15px;
+}
+
+.ride__bike {
+    width: 160px;
+    height: 70px;
+}
+
+.ride__card-header {
+    color: #000000;
+    text-decoration: solid;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.ride__card-point {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    height: 20px;
+}
+
+.ride__card-points {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ride__rentals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 0.5px ;
+    border-radius: 10%;
+    padding: 30px;
+    box-shadow: 2px 2px 4px 2px #D8D8DE;
+    width: 140px;
+    height: 180px;
+}
+
+.ride__cards-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow: hidden;
+    padding: 10px;
+    height: 240px;
+}
+
+/* Estimation pink section */
+
+.estimation {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #DCDCFF;
+    gap: 10px;
+    padding: 0px 0px 5px 0px;
+    width: 100%;
+}
+
+.estimation__container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 20px;
+}
+
+.estimation__header {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.estimation__textarea {
+    width: 85%;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    white-space: nowrap;
+}
+
+.estimation__textareas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    width: 100%;
+}
+
+.estimation__button {
+    line-height: 2.5;
+    padding: 0px 7px 0px 7px;
+    font-size: 17px;
+    width: 150px;
+    text-align: center;
+    color: #000000;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    position: relative;
+    font-weight: 600;
+    border: 0.5px;
+    box-shadow: 1px 1px 1px 1px #9191A2;
+}
+
+.estimation__buttons {
+    width: 45px;
+}
+
+.estimation__point {
+    width: 15px;
+    height: 15px;
+    color: #FF02BF;
+}
+
+.estimation__point--black {
+    color:#000000
+}
+
+.estimation__points {
+    position: relative;
+    bottom: 38px;
+    right: 43%;
+}
+
+/* Safety section */
+
+.safety {
+    background: #f4f4fa;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 100px 20px 100px 20px;
+    gap: 6px;
+}
+
+.safety-first__header {
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.safety__header {
+    font-size: 30px;
+    font-weight: 600; 
+    line-height: 1.2;
+}
+
+.safety__text {
+    font-size: 17px;
+    font-weight: 300; 
+}
+
+.safety__button {
+    line-height: 1.5;
+    padding: 0px 20px 0px 20px;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #523be4;
+    font-weight: 60;
+}
+
+.safety__image-source {
+    width: 100%;
+    height: 100%;
+}
+
+.safety__smallheader {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.safety__text--bold{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.safety__arrow {
+    width: 20px;
+    height: 20px;
+}
+
+/* accessibility */
+
+.accessibility__container {
+    background-color: #FFFFFF;
+    padding: 30px 0px 30px 0px;
+    width: 100%;
+}
+
+.accessibility {
+    padding: 100px 10px 100px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.accesibility__header {
+    font-size: 26px;
+    font-weight: 600; 
+}
+
+.accesibility__text {
+    font-size: 17px;
+    font-weight: 300; 
+}
+
+.accesibility__image-source {
+    height: 100%;
+    width: 100%;
+}
+
+.accesibility__smallheader {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    gap: 10px;
+}
+
+.accesibility__text--bold{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.accessibility__arrow {
+    width: 20px;
+    height: 20px;
+}
+
+/* business section */
+
+.business {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+    width: 100%;
+    background-color: #F4F4Fa;
+}
+
+.business__image-source {
+    width: 60px;
+    height: 40px;
+}
+
+.business__headers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+}
+
+.business-pic__header {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.business__header {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.business__headertext {
+    font-size: 5px;
+    font-weight: 60;   
+}
+
+.business__headerh {
+    font-size: 7px;
+    font-weight: 60;  
+}
+
+.business__text {
+    font-size: 17px;
+    width: 90%;
+    font-weight: 300;
+}
+
+.business__button-source {
+    width: 150px;
+    line-height: 2.5;
+    padding: 0px 7px 0px 7px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    border: 0px white;
+    color: #000000;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #9191A2;
+}
+
+.second__button-feedback-imright {
+    padding-top: 30px;
+}
+
+.business__arrow {
+    padding-top: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+/* Driver type choose */
+
+.type {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.type__block {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    border-bottom: 1px solid grey;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    gap:80px;
+}
+
+.type__text--bold{
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.type__arrow {
+    width: 35px;
+    height: 35px;
+}
+
+.type__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.type__button {
+    line-height: 2.5;
+    padding: 0px 7px 0px 7px;
+    border: 1px solid grey;
+    width: 140px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+/* social media footer section*/
+
+.type__social {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+.type__social-wrapper {
+    padding: 15px 20px 6px 6px;
+}
+
+.type__social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.footer__text {
+    color: #000000;
+    line-height: 2;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.footer__right-terms {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-end
+}
+
+.footer__right-rights {
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.type__social-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.type__driver {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+}
+
+.type__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.business__images-delta {
+    display: none;
+}
+
+.business__images-ascension {
+    display: none;
+}
+
+.business__images-airbnb {
+    width: 40%;
+    height: 50%;
+    max-width: 40%;
+    max-height: 50%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.business__partner-image {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.type__header {
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 480px) {
+    .header__textarea {
+        width: 215px;
+        font-size: 15px;
+    }
+
+    .let-ride__buttons {
+        flex-direction: row;
+    }
+
+    .header__point-img {
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        color: #DF01A6;
+        display: flex;
+    }
+
+    .header__point {
+        position: relative;
+        bottom: 35px;
+        left: 6px;
+    }
+
+    .header__glass {
+        position: relative;
+        bottom: 35px;
+        left: 215px;
+    }
+
+    .header__glass-source {
+        color: #000000;
+        top: 0px;
+    }
+
+    .drive-with__feedback-text {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding-left: 15px
+        padding-right 15px;
+    }
+
+    .footer__right-terms-rights {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .header__textarea {
+        min-width: 330px;
+        max-width: 330px;
+        padding-left: 40px;
+    }
+
+    .header__glass {
+        left: 350px;
+    }
+
+    .header__point-img {
+        left: 10px;
+    }
+
+    .ride__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .ride__screenshot {
+        width: 60%;
+        height: 60%;
+        max-width: 60%;
+        max-height: 60%;
+    }
+
+    .ride__pink {
+        text-align: center;
+        align-items: center;
+    }
+
+    .ride__slider-container {
+        gap: 60px;
+    }
+
+    .ride__container-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+
+    .ride__Ride-Bike-Scoot {
+        width: 70%;
+    }
+
+    .ride-bike__header {
+        width: 95%;
+    }
+
+    .ride-cards__text {
+        text-align: left;
+    }
+
+    .estimation__container {
+        height: 170px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .estimation__textareas {
+        flex-direction: row;
+        min-width: 40%;
+        width: 50%;
+        max-width: 50%;
+    }
+
+    .estimation__textarea {
+        width: 80%;
+        font-size: 12px;
+        text-align: left;
+        padding-left: 40px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .estimation__buttons {
+        width: 0px;
+        height: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .estimation__button {
+        width: 120px;
+        height: 56px;
+        font-size: 14px;
+        line-height: 2;
+        padding: 10px;
+    }
+
+    .estimation__points {
+        position: relative;
+        top: 4px;
+        right: 42%;
+        max-width: 10px;
+        padding: 5px
+    }
+
+    .safety__container {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 50px;
+        align-items:flex-start
+    }
+
+    .safety__image-source {
+        max-width: 700px;
+        max-height: 300px;
+    }
+
+    .button__with-text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .safety__button {
+        font-size: 14px;
+        max-width: 160px;
+        padding: 10px;
+    }
+
+    .safety__bold {
+        font-size: 14px;
+        width: 90%
+    }
+
+    .safety__text {
+        max-width: 400px;
+    }
+
+    .safety__smallheader {
+        width: 350px;
+    }
+
+    .type__block {
+        display: none;
+    }
+
+    .type__driver {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .type {
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .type__text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        display: flex;
+        text-align: left;
+    }
+
+    .type__buttons {
+        padding-top: 20px;
+    }
+
+    .footer__right-terms {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .drive-with__container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .drive-with {
+        flex-direction: row;
+        padding-right: 40px;
+    }
+
+    .drive-with__woman {
+        width: 50%;
+        height: 70%;
+        max-height: 500px;
+        max-width: 450px;
+        padding-left: 15px;
+    }
+
+    .drive-with__feedback {
+        padding: 50px;
+    }
+
+    .safety {
+        padding: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .safety__text--bold {
+        width: 50%;
+    }
+
+    .accessibility {
+        padding: 50px;
+    }
+
+    .business__text {
+        width: 70%;
+    }
+
+    .business__images-delta {
+        display: none;
+    }
+    
+    .business__images-ascension {
+        width: 170px;
+        height: 70px;
+        max-width: 260px;
+        max-height: 100px;
+        display: flex;
+    }
+    
+    .business__images-airbnb {
+        width: 170px;
+        height: 70px;
+        max-width: 260px;
+        max-height: 70px;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    .business__partner-image {
+        gap: 80px;
+        overflow: hidden;
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    .type {
+        background: linear-gradient(to bottom, #E8E8EF 0%, #FFFFFF 5%);
+        padding: 32px 0px 32px 0px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .ride__getride {
+        align-items: flex-start;
+    }
+
+    .ride__head {
+        text-align: left;
+        gap: 0px;
+    }
+
+    .ride__header {
+        height: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .ride__container-image {
+        flex-wrap: wrap;
+        width: 700px;
+    }
+
+    .ride {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ride__container {
+        padding-left: 250px;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .ride__pink-left {
+        display: flex;
+        text-align: left;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .ride__slider-container {
+        padding-left: 50px;
+    }
+
+    .ride__screenshot {
+        height: 550px;
+        width: 700px;
+    }
+
+    .ride__pink {
+        display: none;
+    }
+
+    .ride__Ride-Bike-Scoot {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 850px;
+    }
+
+    .ride__cards {
+        justify-content: center;
+        width: 850px;
+    }
+
+    .ride-cards__text {
+        text-align: left;
+        width: 850px;
+    }
+
+    .safety__smallheader {
+        gap: 10px;
+    }
+
+    .let-ride__container {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0px;
+        justify-content:center;
+        align-items: center;
+        gap: 5px;
+        flex-wrap: nowrap;
+        max-width: 1350px;
+    }
+
+    .let-ride {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .let-ride__header {
+        font-size: 80px;
+        font-weight: 600;
+        width: 350px;
+        height: 60px;
+    }
+
+    .let-ride__image{
+        width: 50%;
+        height: 50%;
+    }
+
+    .let-ride__container-small {
+        padding-bottom: 100px;
+    }
+
+    .drive-with__woman {
+        width: 40%;
+        height: 70%;
+        max-height: 70%;
+        max-width: 70%;
+        padding-left: 15px;
+    }
+
+    .header {
+        justify-content: center;
+        align-items: center;
+ 
+    }
+
+    .header__small-container {
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 10px;
+    }
+
+    .header__textarea {
+        width: 10%;
+    }
+
+    .header__burger {
+        display: none;
+    }
+
+    .header__nav {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .header__glass {
+        left: 280px;
+    }
+
+    .header__text {
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        width: 70px;
+        height: 100%;
+        border-left: 0.5px solid #D8D8DE;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding: 0px 0px 0px 20px
+    }
+
+    .header__text--long {
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        width: 100px;
+        width: 100px;
+        height: 100%;
+        border-left: 0.5px solid #D8D8DE;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        padding: 0px 0px 0px 20px;
+        width: 100px;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .estimation__container  {
+       width: 1350px;
+    }
+
+    .estimation {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .drive-with {
+        justify-content: center;
+    }
+
+    .drive-with__container {
+        padding: 0px 50px 0px 0px;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .drive-with__small-container {
+        padding: 0px;
+    }
+
+    .drive-with__woman {
+        width: 40%;
+        height: 40%;
+        max-height: 450px;
+        max-width: 350px;
+    }
+
+    .drive-with__feedback-left {
+        display: inline-block;
+        text-align: center;
+        max-width: 300px;
+        min-width: 250px;
+        padding: 0px;
+        opacity: 0.5;
+    }
+
+    .drive-with__feedback-right {
+        display: inline-block;
+        text-align: center;
+        max-width: 300px;
+        min-width: 250px;
+        padding: 0px;
+        opacity: 0.5;
+    }
+
+    .drive-with__feedback-group {
+        display: flex;
+        flex-direction: row;
+        padding-top: 100px;
+        padding-left: 25%;
+        padding-right: 25%;
+        gap: 50px;
+        background-color: #F4F4F9;
+        justify-content: center;
+    }
+
+    .drive-with__feedback {
+        display: inline-block;
+        text-align: center;
+        max-width: 300px;
+        min-width: 250px;
+        padding: 0px;
+    }
+
+    .button__with-text {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .estimation__points {
+        position: relative;
+        top: 4px;
+        right: 45%;
+        max-width: 10px;
+        padding: 5px
+    }
+
+    .accesibility__image-source {
+        width: 1110px;
+    }
+
+    .accesibility__image-wraper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .accessibility {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    .accesibility__smallheader {
+        width: 1100px
+    }
+
+    .accessibility__container {
+        width: 100%
+    }
+
+    .accesibility__header{
+        width: 1100px;
+    }
+
+    .accesibility__text {
+        width: 1100px;
+    }
+
+    .accesibility__text--bold {
+        width: 230px;
+    }
+
+    .drive-with__buttons {
+        flex-direction: row;
+        padding-top: 20px;
+    }
+
+    .point {
+        height: 8px;
+        width: 8px;
+    }
+
+    .drive-with__points {
+        gap: 10px;
+    }
+
+    .drive-with__slider {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        gap: 30px;
+    }
+
+    .drive-with__arrow {
+        width: 35px;
+        height: 35px;
+    }
+
+    .header__glass {
+        position: relative;
+        bottom: 35px;
+        left: 340px;
+    }
+
+    .type {
+       width: 100%;
+       gap: 120px;
+    }
+
+    .business__images-delta {
+        width: 170px;
+        height: 70px;
+        max-width: 260px;
+        max-height: 100px;
+        display: flex;
+    }
+
+    .footer {
+        flex-direction: row-reverse;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        text-align:right;
+        padding-left: 140px;
+    }
+
+    .footer__right-terms-rights {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__right-rights {
+        gap: 20px;
+    }
+
+    .type__social-wrapper {
+        padding: 0px;
+    }
+
+    .footer__wrapper {
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .ride__Ride-Bike-Scoot {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center
+    }
+}
